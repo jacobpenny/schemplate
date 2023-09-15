@@ -12,7 +12,7 @@ export function App() {
 
   return (
     <div>
-      <h1 className={styles.heading}>jp-template</h1>
+      <h1 className={styles.heading}>Schemplate</h1>
       <button onClick={() => send({ type: "TOGGLE" })}>
         Click me ({active ? "✅" : "❌"})
       </button>{" "}
